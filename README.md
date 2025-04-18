@@ -3,9 +3,13 @@
 **A human-centric AI system that combines knowledge graphs and graph neural networks to deliver interpretable, curriculum-aware course recommendations.**  
 
 This project demonstrates:  
+
 ✅ **Knowledge Automation**: Structured prerequisite reasoning via RDF knowledge graphs  
+
 ✅ **Human-Centric ML**: Interactive feedback loops and GNNExplainer-driven transparency  
+
 ✅ **Scalable Learning**: PyTorch Geometric implementation for real-world deployment  
+
 ![alt text](mermaid-diagram-2025-04-18-091337.png)
 *Fig 1. Knowledge Graph → GNN → Interactive UI Pipeline*
 
