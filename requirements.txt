@@ -1,0 +1,8 @@
+rdflib 
+pandas 
+torch 
+torch-geometric 
+streamlit
+numpy
+matplotlib
+networkx
