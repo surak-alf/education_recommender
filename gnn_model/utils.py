@@ -3,9 +3,9 @@ import torch
 from torch_geometric.data import Data
 
 def load_data():
-    interactions = pd.read_csv("../data/interactions.csv")
-    students = pd.read_csv("../data/students.csv")
-    courses = pd.read_csv("../data/courses.csv")
+    interactions = pd.read_csv("./data/interactions.csv")
+    students = pd.read_csv("./data/students.csv")
+    courses = pd.read_csv("./data/courses.csv")
     
     # Map IDs to indices
     student_ids = students["student_id"].unique()
