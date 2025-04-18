@@ -31,7 +31,7 @@ def train():
             print(f"Epoch {epoch}, Loss: {loss.item():.4f}")
     
     # Save model
-    torch.save(model.state_dict(), "../gnn_model/model_weights.pth")
+    torch.save(model.state_dict(), "./gnn_model/model_weights.pth")
     print("Training complete. Model saved to 'gnn_model/model_weights.pth'.")
 
 if __name__ == "__main__":
