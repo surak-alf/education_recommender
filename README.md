@@ -10,7 +10,8 @@ This project demonstrates:
 
 ✅ **Scalable Learning**: PyTorch Geometric implementation for real-world deployment  
 
-![alt text](mermaid-diagram-2025-04-18-091337.png)
+![project flowchart](mermaid-diagram-2025-04-18-091337.png)
+
 *Fig 1. Knowledge Graph → GNN → Interactive UI Pipeline*
 
 ## 🌟 Key Innovations
