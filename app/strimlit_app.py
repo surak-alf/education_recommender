@@ -2,12 +2,12 @@ import streamlit as st
 import pandas as pd
 
 # Load data
-students = pd.read_csv("../data/students.csv")
-courses = pd.read_csv("../data/courses.csv")
+students = pd.read_csv("./data/students.csv")
+courses = pd.read_csv("./data/courses.csv")
 
 # Mock recommender (replace with GNN)
 def recommend(student_id):
-    enrolled = pd.read_csv("../data/interactions.csv")
+    enrolled = pd.read_csv("./data/interactions.csv")
     taken = enrolled[enrolled.student_id == student_id].course_id.tolist()
     all_courses = set(courses.course_id)
     return list(all_courses - set(taken))[:3]  # Recommend 3 untaken courses
