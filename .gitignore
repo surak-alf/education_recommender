@@ -2,3 +2,5 @@ venv/
 data/
 lib/
 pycache__/
+gnn_model/__pycache__/
+ gnn_model/model_weights.pth
