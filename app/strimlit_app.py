@@ -5,7 +5,7 @@ import pandas as pd
 students = pd.read_csv("./data/students.csv")
 courses = pd.read_csv("./data/courses.csv")
 
-# Mock recommender (replace with GNN)
+# Mock recommender 
 def recommend(student_id):
     enrolled = pd.read_csv("./data/interactions.csv")
     taken = enrolled[enrolled.student_id == student_id].course_id.tolist()
