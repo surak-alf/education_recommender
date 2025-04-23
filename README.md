@@ -1,5 +1,5 @@
 
-
+# 🎓 Intelligent Course Recommender System  
 **A human-centric AI system that combines knowledge graphs and graph neural networks to deliver interpretable, curriculum-aware course recommendations.**  
 
 This project demonstrates:  
