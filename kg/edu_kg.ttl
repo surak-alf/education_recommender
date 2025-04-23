@@ -1,0 +1,31 @@
+@prefix ex: <http://example.org/> .
+
+ex:CS101 ex:prerequisiteOf ex:CS102 ;
+    ex:title "Intro to Programming" .
+
+ex:MATH101 ex:prerequisiteOf ex:DS201,
+        ex:MATH102,
+        ex:MATH103,
+        ex:STAT101 ;
+    ex:title "Calculus I" .
+
+ex:CS102 ex:prerequisiteOf ex:CS103,
+        ex:CS104,
+        ex:DS201 ;
+    ex:title "Data Structures" .
+
+ex:CS103 ex:prerequisiteOf ex:CS105 ;
+    ex:title "Algorithms" .
+
+ex:CS104 ex:title "Database Systems" .
+
+ex:CS105 ex:title "Operating Systems" .
+
+ex:MATH102 ex:title "Linear Algebra" .
+
+ex:MATH103 ex:title "Discrete Math" .
+
+ex:STAT101 ex:title "Statistics" .
+
+ex:DS201 ex:title "Data Science" .
+
