@@ -7,7 +7,7 @@ def build_knowledge_graph():
     ex = Namespace("http://example.org/")
     g.bind("ex", ex)
 
-    # Load synthetic data - ensure empty prerequisites are treated as empty strings
+    # Load synthetic data 
     courses = pd.read_csv("./data/courses.csv").fillna("")
 
     # Add courses and prerequisites to KG
